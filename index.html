@@ -86,10 +86,15 @@
   .garland img{ width: 100%; display: block; }
   .garland.r{ right: -13vw; transform-origin: 80% 0; opacity: .72; }
   .garland.l{ left: -13vw;  transform-origin: 20% 0; opacity: .72; }
-  @media (max-width: 520px){
-    .garland{ width: min(185px, 44vw); }
-    .garland.r{ right: -17vw; }
-    .garland.l{ left: -17vw; }
+  @media (max-width: 560px){
+    .garland{ width: min(132px, 33vw); }
+    .garland.r{ right: -20vw; opacity: .5; }
+    .garland.l{ left: -20vw;  opacity: .5; }
+  }
+  @media (max-width: 380px){
+    .garland{ width: min(112px, 30vw); }
+    .garland.r{ right: -22vw; opacity: .42; }
+    .garland.l{ left: -22vw;  opacity: .42; }
   }
 
   .garland .fill{
